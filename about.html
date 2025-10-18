@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Motheo Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Urbanist', sans-serif;
+        }
+        .timeline-item:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            left: 7px;
+            top: 24px;
+            height: calc(100% - 24px);
+            width: 2px;
+            background-color: #0891b2;
+        }
+        .profile-image {
+            border: 3px solid #06b6d4;
+            box-shadow: 0 0 0 3px rgba(6, 182, 212, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+    <div id="vanta-bg" class="fixed inset-0 -z-10 opacity-20"></div>
+    
+    <!-- Navigation -->
+    <nav class="bg-gray-800 bg-opacity-90 backdrop-blur-md border-b border-cyan-400/20 fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <div class="flex items-center">
+                            <img src="https://huggingface.co/spaces/thayo/motheo-tech-oasis/resolve/main/images/2022-08-28.webp" alt="Motheo Services Logo" class="w-10 h-10 rounded-md object-cover">
+<div class="ml-3">
+                                <h1 class="text-xl font-bold text-cyan-400">MOTHEO <span class="text-cyan-300">SERVICES</span></h1>
+                                <p class="text-xs text-cyan-300">MADE FOR YOU</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="index.html" class="text-gray-300 hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="services.html" class="text-gray-300 hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                        <a href="#" class="bg-cyan-600 text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="contact.html" class="text-gray-300 hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-300 hover:text-white focus:outline-none">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-cyan-800 to-cyan-600">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">About <span class="text-cyan-200">Motheo Services</span></h1>
+            <p class="text-xl text-cyan-100 max-w-3xl mx-auto">Rooted in Orange Farm, growing with the community through technology</p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+                <div class="mb-12 lg:mb-0">
+                    <h2 class="text-3xl font-bold text-cyan-400 mb-6">Our Story</h2>
+                    <p class="text-gray-300 mb-4">Motheo Services was founded in Drieziek, Orange Farm by Naledi Motheo with a vision to bring quality tech services to our community. What started as a small IT support service has grown into a comprehensive tech solutions provider.</p>
+                    <p class="text-gray-300 mb-6">We understand the unique challenges of township life and are committed to providing affordable, reliable tech services while creating opportunities for local youth through skills development.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="bg-cyan-600 bg-opacity-20 border border-cyan-400 rounded-lg px-4 py-2">
+                            <div class="text-cyan-400 font-bold">100+</div>
+                            <div class="text-sm text-gray-300">Clients Served</div>
+                        </div>
+                        <div class="bg-cyan-600 bg-opacity-20 border border-cyan-400 rounded-lg px-4 py-2">
+                            <div class="text-cyan-400 font-bold">5+</div>
+                            <div class="text-sm text-gray-300">Years Experience</div>
+                        </div>
+                        <div class="bg-cyan-600 bg-opacity-20 border border-cyan-400 rounded-lg px-4 py-2">
+                            <div class="text-cyan-400 font-bold">98%</div>
+                            <div class="text-sm text-gray-300">Satisfaction Rate</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="relative">
+                        <img src="http://static.photos/people/1024x576/15" alt="Our Team" class="rounded-xl shadow-2xl w-full">
+                        <div class="absolute -bottom-4 -right-4 bg-cyan-500 p-3 rounded-lg shadow-lg hidden md:block">
+                            <i data-feather="users" class="text-white h-6 w-6"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+                <div class="order-2 lg:order-1 mt-12 lg:mt-0">
+                    <h2 class="text-3xl font-bold text-cyan-400 mb-6">Meet Our Founder</h2>
+                    <h3 class="text-xl font-bold text-white mb-2">Naledi Motheo</h3>
+                    <p class="text-cyan-300 mb-4">IT Support Specialist | Help Desk Technician</p>
+                    <p class="text-gray-300 mb-4">With a passion for technology and community development, Naledi established Motheo Services to bridge the digital divide in Orange Farm.</p>
+                    <p class="text-gray-300 mb-6">Her technical expertise combined with a deep understanding of local needs has shaped Motheo Services into a trusted tech partner for the community.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-cyan-400 hover:text-cyan-300">
+                            <i data-feather="linkedin" class="h-6 w-6"></i>
+                        </a>
+                        <a href="#" class="text-cyan-400 hover:text-cyan-300">
+                            <i data-feather="mail" class="h-6 w-6"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="order-1 lg:order-2 flex justify-center">
+                    <div class="relative">
+                        <img src="http://static.photos/people/640x360/42" alt="Naledi Motheo" class="rounded-full w-64 h-64 object-cover profile-image">
+                        <div class="absolute -bottom-3 -right-3 bg-gray-800 p-2 rounded-full border-2 border-cyan-500">
+                            <i data-feather="award" class="text-cyan-400 h-6 w-6"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-800">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-cyan-400 mb-12 text-center">Our Journey</h2>
+            <div class="space-y-8">
+                <div class="relative timeline-item pl-8">
+                    <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-cyan-500 border-4 border-cyan-300"></div>
+                    <h3 class="text-xl font-bold text-white mb-1">2024 - Present</h3>
+                    <p class="text-gray-300 font-medium mb-2">Expanding Services in Orange Farm</p>
+                    <p class="text-gray-400">Launched comprehensive tech services including computer repairs, web solutions, and IT support for the Drieziek community.</p>
+                </div>
+                <div class="relative timeline-item pl-8">
+                    <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-cyan-500 border-4 border-cyan-300"></div>
+                    <h3 class="text-xl font-bold text-white mb-1">2023 - 2024</h3>
+                    <p class="text-gray-300 font-medium mb-2">Tech Support Foundation</p>
+                    <p class="text-gray-400">Started providing IT support services to local businesses and individuals, building trust in the community.</p>
+                </div>
+                <div class="relative timeline-item pl-8">
+                    <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-cyan-500 border-4 border-cyan-300"></div>
+                    <h3 class="text-xl font-bold text-white mb-1">2021 - 2022</h3>
+                    <p class="text-gray-300 font-medium mb-2">Community Tech Initiatives</p>
+                    <p class="text-gray-400">Volunteered tech support and training at Southern African Association Of Youth Clubs, sparking the vision for Motheo Services.</p>
+                </div>
+                <div class="relative pl-8">
+                    <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-cyan-500 border-4 border-cyan-300"></div>
+                    <h3 class="text-xl font-bold text-white mb-1">2020</h3>
+                    <p class="text-gray-300 font-medium mb-2">Education & Training</p>
+                    <p class="text-gray-400">Completed Matric at Tharabollo Secondary School while developing IT skills that would become the foundation of Motheo Services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Vision -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-cyan-400 mb-4">Our Vision for Orange Farm</h2>
+                <p class="text-gray-300 max-w-3xl mx-auto">Building a digitally empowered community through accessible technology</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-xl p-6">
+                    <div class="bg-cyan-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                        <i data-feather="wifi" class="text-white h-6 w-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 text-center">Internet Cafe</h3>
+                    <p class="text-gray-300 text-center">Launching affordable internet access and printing services in Drieziek.</p>
+                </div>
+                <div class="bg-gray-800 rounded-xl p-6">
+                    <div class="bg-cyan-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                        <i data-feather="book-open" class="text-white h-6 w-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 text-center">Tech Training</h3>
+                    <p class="text-gray-300 text-center">Digital skills workshops for youth to create employment opportunities.</p>
+                </div>
+                <div class="bg-gray-800 rounded-xl p-6">
+                    <div class="bg-cyan-600 w-12 h-12 rounded-lg flex items-center justify-center mb-4 mx-auto">
+                        <i data-feather="home" class="text-white h-6 w-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 text-center">Community Hub</h3>
+                    <p class="text-gray-300 text-center">A dedicated space for tech services and community development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-cyan-800 to-cyan-600">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">Join Us in Building a Digital Orange Farm</h2>
+            <p class="text-xl text-cyan-100 mb-8">Whether you need tech services or want to partner with us, we'd love to connect.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-white text-cyan-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition duration-300 flex items-center justify-center">
+                    <i data-feather="phone" class="mr-2 h-5 w-5"></i> Call Us
+                </a>
+                <a href="contact.html" class="border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-cyan-600 transition duration-300 flex items-center justify-center">
+                    <i data-feather="mail" class="mr-2 h-5 w-5"></i> Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://huggingface.co/spaces/thayo/motheo-tech-oasis/resolve/main/images/2022-08-28.webp" alt="Motheo Services Logo" class="w-10 h-10 rounded-md object-cover">
+<div class="ml-3">
+                            <h1 class="text-lg font-bold text-cyan-400">MOTHEO <span class="text-cyan-300">SERVICES</span></h1>
+                            <p class="text-xs text-cyan-300">MADE FOR YOU</p>
+                        </div>
+                    </div>
+                    <p class="text-sm">Bringing quality tech services to Orange Farm and surrounding areas.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-cyan-400 transition duration-300">Home</a></li>
+                        <li><a href="services.html" class="hover:text-cyan-400 transition duration-300">Services</a></li>
+                        <li><a href="#" class="text-cyan-400 hover:text-cyan-300 transition duration-300">About</a></li>
+                        <li><a href="contact.html" class="hover:text-cyan-400 transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="services.html" class="hover:text-cyan-400 transition duration-300">Computer Repairs</a></li>
+                        <li><a href="services.html" class="hover:text-cyan-400 transition duration-300">Web Design</a></li>
+                        <li><a href="services.html" class="hover:text-cyan-400 transition duration-300">IT Support</a></li>
+                        <li><a href="services.html" class="hover:text-cyan-400 transition duration-300">Hardware Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i data-feather="phone" class="mr-2 h-4 w-4 text-cyan-400"></i>
+                            <span>+27 63 876 3337</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="mail" class="mr-2 h-4 w-4 text-cyan-400"></i>
+                            <span>motheomnaledi@gmail.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="linkedin" class="mr-2 h-4 w-4 text-cyan-400"></i>
+                            <span>LinkedIn Profile</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="map-pin" class="mr-2 h-4 w-4 text-cyan-400"></i>
+                            <span>Orange Farm, Drieziek</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center">
+                <p class="text-sm">&copy; 2023 Motheo Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+        VANTA.WAVES({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x0891b2,
+            shininess: 70.00,
+            waveHeight: 15.00,
+            waveSpeed: 0.80,
+            zoom: 0.85
+        });
+    </script>
+</body>
+</html>

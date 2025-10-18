@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Motheo Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Urbanist', sans-serif;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .service-icon {
+            transition: all 0.3s ease;
+        }
+        .service-card:hover .service-icon {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 bg-opacity-90 backdrop-blur-md border-b border-cyan-400/20 fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <div class="flex items-center">
+                            <img src="https://huggingface.co/spaces/thayo/motheo-tech-oasis/resolve/main/images/2022-08-28.webp" alt="Motheo Services Logo" class="w-10 h-10 rounded-md object-cover">
+<div class="ml-3">
+                                <h1 class="text-xl font-bold text-cyan-400">MOTHEO <span class="text-cyan-300">SERVICES</span></h1>
+                                <p class="text-xs text-cyan-300">MADE FOR YOU</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="index.html" class="text-gray-300 hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#" class="bg-cyan-600 text-white px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                        <a href="about.html" class="text-gray-300 hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="contact.html" class="text-gray-300 hover:bg-cyan-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-300 hover:text-white focus:outline-none">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-cyan-800 to-cyan-600">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">Our <span class="text-cyan-200">Tech Services</span></h1>
+                <p class="text-xl text-cyan-100 max-w-3xl mx-auto">Comprehensive tech solutions designed for the Orange Farm community. Quality service with a local touch.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-gray-700 rounded-xl p-6 service-card transition duration-300">
+                    <div class="bg-cyan-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4 mx-auto service-icon">
+                        <i data-feather="cpu" class="text-white h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 text-center">Computer Repairs</h3>
+                    <p class="text-gray-300 mb-4 text-center">Expert hardware and software repairs for all your devices.</p>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Virus removal and system cleanup</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Hardware diagnostics and replacement</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Operating system installation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Data recovery and backup solutions</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-gray-700 rounded-xl p-6 service-card transition duration-300">
+                    <div class="bg-cyan-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4 mx-auto service-icon">
+                        <i data-feather="globe" class="text-white h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 text-center">Web Solutions</h3>
+                    <p class="text-gray-300 mb-4 text-center">Professional websites to establish your online presence.</p>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Custom website design and development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Responsive mobile-friendly designs</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Domain registration and hosting</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Website maintenance and updates</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-gray-700 rounded-xl p-6 service-card transition duration-300">
+                    <div class="bg-cyan-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4 mx-auto service-icon">
+                        <i data-feather="tool" class="text-white h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 text-center">IT Support</h3>
+                    <p class="text-gray-300 mb-4 text-center">Reliable tech support for businesses and individuals.</p>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Network setup and troubleshooting</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Software installation and configuration</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Email setup and support</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Remote assistance and on-site support</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-gray-700 rounded-xl p-6 service-card transition duration-300">
+                    <div class="bg-cyan-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4 mx-auto service-icon">
+                        <i data-feather="hard-drive" class="text-white h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 text-center">Hardware Services</h3>
+                    <p class="text-gray-300 mb-4 text-center">Complete hardware solutions for all your needs.</p>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Computer upgrades and optimization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Component replacement and repairs</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Peripheral setup and troubleshooting</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Custom PC building and consultation</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-gray-700 rounded-xl p-6 service-card transition duration-300">
+                    <div class="bg-cyan-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4 mx-auto service-icon">
+                        <i data-feather="smartphone" class="text-white h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 text-center">Mobile Services</h3>
+                    <p class="text-gray-300 mb-4 text-center">Solutions for your smartphones and tablets.</p>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Screen repairs and replacements</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Battery replacement services</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Software troubleshooting</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Data transfer and backup</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-gray-700 rounded-xl p-6 service-card transition duration-300">
+                    <div class="bg-cyan-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4 mx-auto service-icon">
+                        <i data-feather="cloud" class="text-white h-8 w-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2 text-center">Business Solutions</h3>
+                    <p class="text-gray-300 mb-4 text-center">Tech services tailored for local businesses.</p>
+                    <ul class="text-gray-300 text-sm space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Point of Sale system setup</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Business network setup</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Security system consultation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Office equipment support</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-cyan-400 mb-4">Affordable Pricing</h2>
+                <p class="text-gray-300 max-w-2xl mx-auto">Competitive rates for quality tech services in Orange Farm</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-800 rounded-xl p-8 border border-cyan-500/30 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-cyan-500 text-xs font-bold px-3 py-1 rounded-bl-lg">MOST POPULAR</div>
+                    <h3 class="text-xl font-bold text-white mb-4">Basic Repair</h3>
+                    <div class="text-3xl font-bold text-cyan-400 mb-4">R250+</div>
+                    <p class="text-gray-300 mb-6">Standard diagnostics and minor repairs</p>
+                    <ul class="text-gray-300 text-sm space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Virus removal</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Software troubleshooting</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Basic hardware checks</span>
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="block w-full bg-cyan-600 hover:bg-cyan-700 text-white text-center py-2 rounded-lg transition duration-300">Get Started</a>
+                </div>
+                <div class="bg-gray-800 rounded-xl p-8 border border-gray-700">
+                    <h3 class="text-xl font-bold text-white mb-4">Hardware Fix</h3>
+                    <div class="text-3xl font-bold text-cyan-400 mb-4">R500+</div>
+                    <p class="text-gray-300 mb-6">Component replacement and repairs</p>
+                    <ul class="text-gray-300 text-sm space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Screen replacements</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Keyboard/mouse repairs</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Power supply issues</span>
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="block w-full bg-gray-700 hover:bg-gray-600 text-white text-center py-2 rounded-lg transition duration-300">Get Started</a>
+                </div>
+                <div class="bg-gray-800 rounded-xl p-8 border border-gray-700">
+                    <h3 class="text-xl font-bold text-white mb-4">Website Package</h3>
+                    <div class="text-3xl font-bold text-cyan-400 mb-4">R2,500+</div>
+                    <p class="text-gray-300 mb-6">Basic business website</p>
+                    <ul class="text-gray-300 text-sm space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>5-page custom website</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>Mobile responsive design</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-cyan-400 mr-2 mt-1 h-4 w-4 flex-shrink-0"></i>
+                            <span>1 year hosting included</span>
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="block w-full bg-gray-700 hover:bg-gray-600 text-white text-center py-2 rounded-lg transition duration-300">Get Started</a>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <p class="text-gray-400">* Prices may vary based on specific requirements. Contact us for exact quotes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-cyan-800 to-cyan-600">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">Need Help With Your Tech?</h2>
+            <p class="text-xl text-cyan-100 mb-8">We're just a call or message away. Get in touch today!</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-white text-cyan-600 px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition duration-300 flex items-center justify-center">
+                    <i data-feather="phone" class="mr-2 h-5 w-5"></i> Call Now
+                </a>
+                <a href="contact.html" class="border-2 border-white text-white px-6 py-3 rounded-lg font-bold hover:bg-white hover:text-cyan-600 transition duration-300 flex items-center justify-center">
+                    <i data-feather="message-square" class="mr-2 h-5 w-5"></i> Send Message
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img src="https://huggingface.co/spaces/thayo/motheo-tech-oasis/resolve/main/images/2022-08-28.webp" alt="Motheo Services Logo" class="w-10 h-10 rounded-md object-cover">
+<div class="ml-3">
+                            <h1 class="text-lg font-bold text-cyan-400">MOTHEO <span class="text-cyan-300">SERVICES</span></h1>
+                            <p class="text-xs text-cyan-300">MADE FOR YOU</p>
+                        </div>
+                    </div>
+                    <p class="text-sm">Bringing quality tech services to Orange Farm and surrounding areas.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-cyan-400 transition duration-300">Home</a></li>
+                        <li><a href="#" class="text-cyan-400 hover:text-cyan-300 transition duration-300">Services</a></li>
+                        <li><a href="about.html" class="hover:text-cyan-400 transition duration-300">About</a></li>
+                        <li><a href="contact.html" class="hover:text-cyan-400 transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-cyan-400 transition duration-300">Computer Repairs</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition duration-300">Web Design</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition duration-300">IT Support</a></li>
+                        <li><a href="#" class="hover:text-cyan-400 transition duration-300">Hardware Services</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center">
+                            <i data-feather="phone" class="mr-2 h-4 w-4 text-cyan-400"></i>
+                            <span>+27 63 876 3337</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="mail" class="mr-2 h-4 w-4 text-cyan-400"></i>
+                            <span>motheomnaledi@gmail.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="linkedin" class="mr-2 h-4 w-4 text-cyan-400"></i>
+                            <span>LinkedIn Profile</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i data-feather="map-pin" class="mr-2 h-4 w-4 text-cyan-400"></i>
+                            <span>Orange Farm, Drieziek</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center">
+                <p class="text-sm">&copy; 2023 Motheo Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
